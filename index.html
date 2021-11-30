@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&family=Roboto:wght@100;500;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ZTech Asesoramiento Tecnológico</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                 <li class="nav-items"><a class="nav-links" href="pages/contactanos.html">Contacto</a></li>
             </ul>
         </nav>
-        <header class="header">  
+        <header class="header headerIndex">  
             <h1 class="header_h1">Innovando para vos</h1>
             <h2 class="header_h2">Asesoramiento Tecnológico</h2>
         </header> 
@@ -45,13 +46,13 @@
             <section class="section_conteiner2"> 
                 <div class="section1_div1">
                     <h3>Llevá tu negocio al siguiente nivel</h3>
-                    <img class="main_divImg" width="100px" height="100px" name="Seguridad Informática" src="images/seguridad-de-internet.png" alt="Seguridad Informática">
+                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" name="Seguridad Informática" src="images/seguridad-de-internet.png" alt="Seguridad Informática">
                     <p class="main-divP">Seguridad Informática</p><br><br>
-                    <img class="main_divImg" width="100px" height="100px" src="images/nube.png" alt="Cloud Computing">
+                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/nube.png" alt="Cloud Computing">
                     <p class="main-divP">Administración en la Nube</p><br><br>
-                    <img class="main_divImg" width="100px" height="100px" src="images/administracion.png" alt="Soporte Técnico">
+                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/administracion.png" alt="Soporte Técnico">
                     <p class="main-divP">Soporte Técnico</p><br><br>
-                    <img class="main_divImg" width="100px" height="100px" src="images/centro-de-datos.png" alt="Administración de Servidores">
+                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/centro-de-datos.png" alt="Administración de Servidores">
                     <p class="main-divP">Redes y Servidores</p>
                 </div>
         </section>    
@@ -79,6 +80,10 @@
                 </ul>
             </div>
         </footer>
-    </div>    
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>    
 </body>
 </html> 
