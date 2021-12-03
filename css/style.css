@@ -205,6 +205,7 @@
         font-size: 16px;
         bottom: 6rem;
         text-align: center;
+        margin: 1rem;
     }
     .main_divContenedor {
         position: relative;
@@ -628,8 +629,7 @@
     }
     .main_div1Nosotros {
         color: #ffffff;
-        width: 50rem;
-        text-align:center;
+        width: 100%;
         height: 20rem;
         position: relative;
         font-size: 18px;
@@ -639,32 +639,30 @@
         border:groove;
         border-radius: 10rem;
         position: relative;
-        width: 10rem;
-        top: 14rem;
-        right: 5rem;
+        width: 8rem;
+        left: 9rem;
     }
     .img_clientes {
         border:groove;
         border-radius: 10rem;
         position: relative;
-        width: 10rem;
+        width: 8rem;
+        left: 14rem;
         top: 14rem;
-        left: 0.5rem;
     }
     .img_profesionales {
         border:groove;
         border-radius: 10rem;
         position: relative;
-        width: 10rem;
+        width: 8rem;
+        right: 23rem;
         top: 14rem;
-        left: 5rem;
     }
     .p_Nosotros {
         position: relative;
         font-size: 20px;
         bottom: 10rem;
-        padding: 0rem 3rem;
-        left: 1rem;
+        margin: 2rem;
 
     }
     .main_divContenedor {
@@ -690,14 +688,13 @@
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
         font-size: 22px;
-        padding: 2rem 2rem;
+
         background-color: midnightblue;
     }
     .main_div4Nosotros h3 {
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
         font-size: 22px;
-        padding: 2rem 2rem;
         position: relative;
         top: 6rem;
         background-color: midnightblue;
@@ -711,7 +708,7 @@
         bottom: 5rem;
         height: 7rem;
         width: 44rem;
-        padding: 0rem 4rem;
+        left: 2rem;
     }
     .p_div4Nosotros {
         color: #ffffff;
@@ -722,7 +719,7 @@
         bottom: 5rem;
         height: 5rem;
         width: 44rem;
-        padding: 0rem 4rem;
+        left: 2rem;
     }
 
     /*Style Contactanos 800 */
@@ -1014,6 +1011,7 @@
         width: 12rem;
         top: 1rem;
         margin-bottom: 9rem;
+        left: 4rem;
         
     }
     .p_Nosotros {
