@@ -1155,7 +1155,6 @@
     }
     .img_conteinerReferencias {
         background-color: #171950;
-        padding: 4rem 30rem;
         border: none;
         display: inline-block;
     }
@@ -1163,6 +1162,11 @@
         border: none;
         border-radius: 1rem;
         margin-left: 5rem;
+    }
+    .img_conteinerReferencias img {
+        position: relative;
+        left: 30rem;
+
     }
 
     /*Style Novedades 1920*/
