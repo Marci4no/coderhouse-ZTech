@@ -1,89 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;900&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&family=Roboto:wght@100;500;900&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>ZTech Asesoramiento Tecnológico</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&family=Roboto:wght@100;500;900&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>ZTech Asesoramiento Tecnológico</title>
 </head>
+
 <body>
-    <div class="grid_conteiner">
-        <nav class="nav">
-            <a href="index.html"><img width="120" src="images/logo.png" alt="Logo Z-Tech"></a>
-            <ul>
-                <li class="nav-items"><a class="nav-links" href="#">Inicio</a></li>
-                <li class="nav-items"><a class="nav-links" href="pages/nosotros.html">Nosotros</a></li>
-                <li class="nav-items"><a class="nav-links" href="pages/servicios.html">Servicios</a></li>
-                <li class="nav-items"><a class="nav-links" href="pages/novedades.html">Novedades</a></li>
-                <li class="nav-items"><a class="nav-links" href="pages/referencias.html">Referencias</a></li>
-                <li class="nav-items"><a class="nav-links" href="pages/contactanos.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <header class="header headerIndex">  
-            <h1 class="header_h1">Innovando para vos</h1>
-            <h2 class="header_h2">Asesoramiento Tecnológico</h2>
-        </header> 
-        <main class="mainIndex">
-            <section class="section_conteiner1">
-                <div class="main-div1">
-                        <p>Somos una empresa dedicada a brindar soluciones tecnológicas de gran envergadura a
-                        pequeñas y medianas empresas. <br><br><br>
-                        Contamos con profesionales altamente especializados, por eso, estamos capacitados para tomar cualquier
-                        desafío, con profesionalidad, proactividad y compromiso. <br> <br><br>
-                        Si estas buscando darle un salto de calidad a tu negocio, con profesionales que te acompañen en
-                        todo momento y, además, con un estilo creativo y vanguardista, llegaste al lugar indicado.</p>
-                </div>
-            </section>
-            <section class="section_conteiner2"> 
-                <div class="section1_div1">
-                    <h3>Llevá tu negocio al siguiente nivel</h3>
-                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" name="Seguridad Informática" src="images/seguridad-de-internet.png" alt="Seguridad Informática">
-                    <p class="main-divP">Seguridad Informática</p><br><br>
-                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/nube.png" alt="Cloud Computing">
-                    <p class="main-divP">Administración en la Nube</p><br><br>
-                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/administracion.png" alt="Soporte Técnico">
-                    <p class="main-divP">Soporte Técnico</p><br><br>
-                    <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/centro-de-datos.png" alt="Administración de Servidores">
-                    <p class="main-divP">Redes y Servidores</p>
-                </div>
-        </section>    
-        </main>
-        <footer class="footer">
-            <div class="copyrigth">
-                <p>Produced by Franco Carbone<br> All Rigths Reserved</p>
+    <nav class="navbar navbar-expand-lg navbar-light mainNav">
+      <div>
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="ZTech" width="100" height="70">
+        </a>
+      </div>
+      <div class="container-fluid mainDivContainer">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/referencias.html">Referencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header headerIndex">
+      <h1 class="header_h1">Innovando para vos</h1>
+      <h2 class="header_h2">Asesoramiento Tecnológico</h2>
+    </header>
+    <main class="mainIndex">
+      <section class="carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active divCarrusel">
+              <img src="images/it.jpg" class="d-block imgDivCarrusel" width="1728px" height="480" alt="...">
             </div>
-            <div class="socialMedia">
-                <p>Seguinos en nuestras redes sociales</p>
-                <img width="30" src="images/instagram.png" alt="instagram">
-                <img width="30" src="images/linkedin.png" alt="linkedin">
-                <img width="30" src="images/youtube.png" alt="youtube">
-                <img width="30" src="images/facebook.png" alt="facebook">
-                <img width="30" src="images/twitter.png" alt="twitter"><br>
+            <div class="carousel-item divCarrusel">
+              <img src="images/security.jpg" class="d-block imgDivCarrusel" width="1728px" height="480" alt="...">
             </div>
-            <div class="footer-nav">
-                <ul>
-                    <li class="footer-navLi"><a class="footer-navLink" href="#">Inicio</a></li>
-                    <li class="footer-navLi"><a class="footer-navLink" href="pages/nosotros.html">Nosotros</a></li>
-                    <li class="footer-navLi"><a class="footer-navLink" href="pages/servicios.html">Servicios</a></li>
-                    <li class="footer-navLi"><a class="footer-navLink" href="pages/novedades.html">Novedades</a></li>
-                    <li class="footer-navLi"><a class="footer-navLink" href="pages/referencias.html">Referencias</a></li>
-                    <li class="footer-navLi"><a class="footer-navLink" href="pages/contactanos.html">Contacto</a></li>
-                </ul>
+            <div class="carousel-item divCarrusel">
+              <img src="images/srsv.jpg" class="d-block imgDivCarrusel" width="1728px" height="480" alt="...">
             </div>
-        </footer>
-    </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>    
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="section_conteiner1">
+        <div class="main-div1">
+          <p>Somos una empresa dedicada a brindar soluciones tecnológicas de gran envergadura a
+            pequeñas y medianas empresas. <br><br><br>
+            Contamos con profesionales altamente especializados, por eso, estamos capacitados para tomar cualquier
+            desafío, con profesionalidad, proactividad y compromiso. <br> <br><br>
+            Si estas buscando darle un salto de calidad a tu negocio, con profesionales que te acompañen en
+            todo momento y, además, con un estilo creativo y vanguardista, llegaste al lugar indicado.</p>
+        </div>
+      </section>
+      <section class="section_conteiner2">
+        <div class="section1_div1">
+          <h3>Llevá tu negocio al siguiente nivel</h3>
+          <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" name="Seguridad Informática"
+            src="images/seguridad-de-internet.png" alt="Seguridad Informática">
+          <p class="main-divP">Seguridad Informática</p><br><br>
+          <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/nube.png"
+            alt="Cloud Computing">
+          <p class="main-divP">Administración en la Nube</p><br><br>
+          <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/administracion.png"
+            alt="Soporte Técnico">
+          <p class="main-divP">Soporte Técnico</p><br><br>
+          <img data-aos="fade-down" class="main_divImg" width="100px" height="100px" src="images/centro-de-datos.png"
+            alt="Administración de Servidores">
+          <p class="main-divP">Redes y Servidores</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="copyrigth">
+        <p>Produced by Franco Carbone<br> All Rigths Reserved</p>
+      </div>
+      <div class="socialMedia">
+        <p>Seguinos en nuestras redes sociales</p>
+        <img width="30" src="images/instagram.png" alt="instagram">
+        <img width="30" src="images/linkedin.png" alt="linkedin">
+        <img width="30" src="images/youtube.png" alt="youtube">
+        <img width="30" src="images/facebook.png" alt="facebook">
+        <img width="30" src="images/twitter.png" alt="twitter"><br>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li class="footer-navLi"><a class="footer-navLink" href="#">Inicio</a></li>
+          <li class="footer-navLi"><a class="footer-navLink" href="pages/nosotros.html">Nosotros</a></li>
+          <li class="footer-navLi"><a class="footer-navLink" href="pages/servicios.html">Servicios</a></li>
+          <li class="footer-navLi"><a class="footer-navLink" href="pages/novedades.html">Novedades</a></li>
+          <li class="footer-navLi"><a class="footer-navLink" href="pages/referencias.html">Referencias</a></li>
+          <li class="footer-navLi"><a class="footer-navLink" href="pages/contactanos.html">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
-</html> 
+
+</html>

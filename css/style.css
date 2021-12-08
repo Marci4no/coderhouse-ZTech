@@ -67,6 +67,44 @@
 
 @media screen and (min-width: 360px) {
 
+    .navbar {
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: inherit;
+        justify-content: space-around;
+        padding: 0 4px;
+    }
+    .navbar-toggler {
+        background-color: #9467ad;
+    }
+    .mainNav {
+        background-color: #04082bea;
+        width: 100%;
+        color: white;
+        left: 70px;
+        justify-content: start;
+        align-items: center;
+    }
+    .mainDivContainer {
+        width: 100%;
+    }
+    .mainDivContainer ul li {
+        padding: 5px;
+        border-left: dotted violet 1px;
+        margin: 4px;
+    }
+    .carrusel {
+        display: none;
+    }
+    .divCarrusel {
+        padding: 10px 0;
+    }
+    .imgDivCarrusel {
+        border: solid black 2px;
+    }
+    .mainDivContainer {
+        padding: 0;
+    }
     .header {
         display: inline-block;
         height: 100px;
@@ -90,7 +128,7 @@
     }
     .mainIndex {
         background-image: none;
-        height: 1200px;
+        height: 1300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -160,6 +198,9 @@
  /*Style Nosotros Mobile 360*/
 
     .headerNosotros {
+        width: 100%;
+    }
+    .headerIndex {
         width: 100%;
     }
     .mainNosotros {
@@ -494,7 +535,19 @@
             color: #330a33;
         }        
     }
-
+    .mainNav {
+        background-color: #04082bea;
+        width: 100%;
+        color: white;
+        left: 70px;
+        justify-content: start;
+        align-items: center;
+    }
+    .mainDivContainer ul li {
+        padding: 5px;
+        border-left: dotted violet 1px;
+        margin: 4px;
+    }
     .nav {
         height: 6rem;
         display: flex;
@@ -529,6 +582,9 @@
         text-align: center;
         width: 810px;
     }
+    .headerIndex { 
+        width: 100%;
+    }
     .header h1 {
         font-weight: 500;
         color: #ffffff;
@@ -548,7 +604,7 @@
     }
     .mainIndex {
         background-image: none;
-        height: 1100px;
+        height: 1200px;
     }
     .section_conteiner1 {
         text-align: center;
@@ -825,10 +881,14 @@
         padding-left: 1rem;
     }
     .header {
-    height: 270px;
-    background-image: url(../images/headerbackground.png);
-    display: block;
-    width: 100%;
+        height: 270px;
+        background-image: url(../images/headerbackground.png);
+        display: block;
+        width: 100%;
+    }
+    .headerIndex {
+        height: 300px;
+        border: solid black 1px;
     }
     .header h1 {
         font-weight: 700;
@@ -849,10 +909,11 @@
         text-align: left;
     }
     .mainIndex {
-        height: 1600px;
+        height: 2100px;
         display: flex;
         justify-content: center;
         background-image: url(../images/main\ background.png);
+        overflow: hidden;
     }
     .section_conteiner1 {
         text-align: center;
@@ -876,12 +937,12 @@
     .section_conteiner2 h3 {
         background-color: #000213ea;
         color: #ffffff;
-        height: 5rem;
+        height: 5rem !important;
         font-family: 'Nunito', sans-serif;
         font-size: 24px;
         font-weight: 500;
         text-align: center;
-        padding-top: 3rem;
+        padding-top: 2rem !important;
     }
     .section_conteiner2 img {
         position: relative;
@@ -1172,6 +1233,10 @@
 
     /*Style Novedades 1920*/
 
+    .headerNovedades {
+        height: 300px;
+        border: solid black 1px;
+    }
     .main_pdiv1Novedades {
         font-size: 20px;
     }
@@ -1293,5 +1358,36 @@
         padding-top: 4rem;
         padding-left: 4rem;
         font-size: 20 px;
+    }
+
+    /* Boostrap*/
+
+    .mainNav {
+        background-color: #04082bea;
+        width: 100%;
+        color: white;
+        left: 70px;
+    }
+    .mainDivContainer {
+        width: 100%;
+    }
+    .mainDivContainer ul li {
+        padding: 5px;
+        border-left: dotted violet 1px;
+        margin: 4px;
+    }
+    .carrusel {
+        max-height: 494px;
+        width: 90%;
+        display: unset;
+    }
+    .divCarrusel {
+        padding: 10px 0;
+    }
+    .imgDivCarrusel {
+        border: solid black 2px;
+    }
+    .mainDivContainer {
+        padding: 0;
     }
 }
