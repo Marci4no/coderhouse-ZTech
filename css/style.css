@@ -197,6 +197,7 @@
     }
     .socialMedia p {
         margin: 0rem;
+        padding: 0rem;
     }
     .copyrigth {
         text-align: center;
@@ -418,6 +419,7 @@
         background-color: #110d27;
         position: relative;
         height: 180rem;
+        overflow: hidden;
     }
     .main_div1h1Servicios {
         color: #ffffff;
