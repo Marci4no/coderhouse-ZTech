@@ -1,0 +1,25 @@
+{
+  "name": "coderhouse-ztech",
+  "version": "1.0.0",
+  "description": "Repositorio para el proyecto ZTech del curso Desarrollo Web, comision 24520 de coderhouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/style.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marci4no/coderhouse-ZTech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marci4no/coderhouse-ZTech/issues"
+  },
+  "homepage": "https://github.com/Marci4no/coderhouse-ZTech#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

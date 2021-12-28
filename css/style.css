@@ -4,65 +4,6 @@
     border: 0px;
 }
 
-/*Flexbox and Grids*/
-
-/*Grid Conteiner*/
-
-.grid_conteiner {
-    display: grid;
-    grid-template-areas:
-    "nav nav nav"
-    "header header header"
-    "main main main"
-    "footer footer footer";
-    justify-items: stretch;  
-}
-/*Grid Areas*/
-
-.nav {
-    grid-area: nav;
-    text-align: center;
-    font-family: 'Nunito', 'sans-serif';
-    width: auto;
-    height: 7rem;
-    background-color: #04082bea;
-    position: sticky;
-    top: 0px;
-    z-index: 100;
-}
-.header {
-    grid-area: header;
-    border-top: solid 1px;
-    font-family: 'Roboto', 'sans-serif';
-    background-image: url(../images/headerbackground.png);
-}
-.mainIndex {
-    grid-area: main;
-    border-top: solid 1px;
-    background-image: url(../images/main\ background.png);
-    height: 1600px;
-    width: auto;
-}
-.footer {
-    grid-area: footer;
-    border: solid 1px;
-    border-color: black;
-}
-
-/*style nav*/
-
-.nav ul li {
-    display: inline-block;
-    font-size: 11px;
-    padding: 3px;
-    border-right: solid 1px;
-    color: violet;
-}
-.nav a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 /*===Media Queries===*/
 
 @media screen and (min-width: 360px) {
@@ -109,6 +50,7 @@
     .mainDivContainer {
         padding: 0;
     }
+    /*Section_conteiner1*/
     .main_divImg {
         width: 96px;
     }
@@ -534,28 +476,6 @@
 
     /*Style Index 800*/
 
-    @keyframes expandirlinav {
-        0% {
-            background-color: #ffffffd5;
-            transform: scale(0.5);
-        }
-        50% {
-            background-color: #ffffffd5;
-            transform: scale(1);
-        }
-        100% {
-            background-color: #ffffffd5;
-            transform: scale(1);
-        }
-    }
-    @keyframes coloranav {
-        0% {
-            color: #330a33;
-        }
-        100% {
-            color: #330a33;
-        }        
-    }
     .mainNav {
         background-color: #04082bea;
         width: 100%;
@@ -568,34 +488,6 @@
         padding: 5px;
         border-left: dotted violet 1px;
         margin: 4px;
-    }
-    .nav {
-        height: 6rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .nav ul li {
-        display: inline-block;
-        font-size: 14px;
-        padding: 8px;
-        margin: 10px;
-        border: dotted 2px;
-        border-radius: 5px;
-        color: violet;
-    }
-    .nav ul li:hover {
-        animation-name: expandirlinav;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .nav ul li a:hover {
-        animation-name: coloranav;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-    }
-    .nav img {
-        padding-left: 1rem;
     }
     .header {
         height: 200px;
@@ -915,24 +807,6 @@
 
     /*Style Index 1920*/
 
-    .nav {
-        height: 6rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .nav ul li {
-        display: inline-block;
-        font-size: 14px;
-        padding: 8px;
-        margin-right: 10px;
-        border: dotted 2px;
-        border-radius: 5px;
-        color: violet;
-    }
-    .nav img {
-        padding-left: 1rem;
-    }
     .header {
         height: 270px;
         background-image: url(../images/headerbackground.png);
@@ -1367,7 +1241,6 @@
         position: relative;
         padding-bottom: 3rem;
         padding-top: 5rem;
-
         font-size: 28px;
         font-family: 'Nunito', sans-serif;
         padding-left: 3rem;
@@ -1428,36 +1301,5 @@
         padding-top: 4rem;
         padding-left: 4rem;
         font-size: 20 px;
-    }
-
-    /* Boostrap*/
-
-    .mainNav {
-        background-color: #04082bea;
-        width: 100%;
-        color: white;
-        left: 70px;
-    }
-    .mainDivContainer {
-        width: 100%;
-    }
-    .mainDivContainer ul li {
-        padding: 5px;
-        border-left: dotted violet 1px;
-        margin: 4px;
-    }
-    .carrusel {
-        max-height: 494px;
-        width: 90%;
-        display: unset;
-    }
-    .divCarrusel {
-        padding: 10px 0;
-    }
-    .imgDivCarrusel {
-        border: solid black 2px;
-    }
-    .mainDivContainer {
-        padding: 0;
     }
 }
