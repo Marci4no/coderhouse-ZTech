@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(10, 10, 10);
+    background-color: $footerbg;
     height: 5rem;
     color: #ffffff;
     display: flex;
@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 800px) {
     .footer {
-        background-color: rgb(10, 10, 10);
+        background-color: $footerbg;
         height: 7rem;
         color: #ffffff;
         display: flex;
@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 1920px)  {
     .footer {
-        background-color: rgb(10, 10, 10);
+        background-color: $footerbg;
         height: 7rem;
         color: #ffffff;
         display: flex;

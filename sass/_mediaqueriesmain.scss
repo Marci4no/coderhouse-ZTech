@@ -193,16 +193,18 @@
     }
     .main_form {
         background-color: #cbc3ff;
-        height: 35rem;
-        .fieldset {
-            left: 15rem;
-            top: 1rem;
-            .main_inputContactanos {
-                border-color: #000000;
-                border: groove;
-                padding: 1rem 0rem;
-            }
-        }
+        height: 48rem;
+    }
+    .fieldset {
+        left: 15rem;
+        top: 1rem;
+        width: 200px;
+    }
+    .main_inputContactanos {
+        border-color: #000000;
+        border: groove;
+        padding: 1rem 0rem;
+        width: 300px;
     }
     .main_divh2Contactanos {
         padding: 2rem;
@@ -217,8 +219,8 @@
         }
         img {
             position: relative;
-            left: 45rem;
             bottom: 3rem;
+            left: 30rem;
         }
     }
     .headerServicios {
@@ -233,7 +235,8 @@
         text-align: center;
     }
     .main_imgdiv2Servicios {
-        left: 20rem;
+        left: 30rem;
+        width: 10rem;
     }
     .headerNovedades {
         width: 100%;
@@ -261,6 +264,8 @@
     }
     .img_conteinerReferencias {
         left: 8rem;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
@@ -488,75 +493,74 @@
         height: 300px;
         border: solid black 1px;
     }
+    .main_div1Servicios {
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        position: relative;
+        top: 5rem;
+        color: #ffffff;
+    }
     .mainServicios {
         background-color: #110d27;
-        height: 210rem;
-        .main_div1Servicios {
-            font-size: 20px;
-            font-family: 'Nunito', sans-serif;
-            text-align: center;
-            position: relative;
-            top: 5rem;
-            color: #ffffff;
-        .main_div1h1Servicios {
-            background-color: #060e22;
-            width: 30rem;
-            height: 5rem;
-            text-align: center;
-            position: relative;
-            left: 43rem;
-            padding-top: 1rem;
-            border-radius: 5rem;
-            border: dotted;
-        }
-        .main_pdiv1Contactanos {
-            background-color: #180a3a;
-            width: 70rem;
-            position: relative;
-            left: 21rem;
-            top: 12rem;
-            right: 3rem;
-            padding: 4rem;
-            text-align: center;
-            padding-top: 2rem;
-            font-size: 1.5rem;
-            border-radius: 5px;
-        }
-        .main_div2Servicios {
-            position: relative;
-            top: 30rem;
-            padding: 2rem;
-        }
-            .main_imgdiv2Servicios {
-                width: 8rem;
-                height: 8rem;
-                position: relative;
-                border: groove;
-                border-radius: 2rem;
-                margin: 4rem;
-                left: 5rem;
-            }
-            .h4_div2 {
-                position: relative;;
-                bottom: 9rem;
-                margin-left: 20rem;
-                color: #ffffff;
-                font-size: 1.5rem;
-                width: 30rem;
-                font-family: 'Nunito', sans-serif;
-            }
-            .p_h4div2 {
-                background-color: #08092e;
-                color: #ffffff;
-                width: 70rem;
-                height: 3rem;
-                padding: 2rem;
-                font-size: 20px;
-                position: relative;
-                bottom: 4rem;
-                left: 20rem;
-            }
-        }
+        height: 230rem;
+    }
+    .main_div1h1Servicios {
+        background-color: #060e22;
+        width: 30rem;
+        text-align: center;
+        position: relative;
+        padding-top: 1rem;
+        border-radius: 5rem;
+        border: dotted;
+        margin-left: 43rem;
+    }
+    .main_pdiv1Contactanos {
+        background-color: #180a3a;
+        width: 70rem;
+        position: relative;
+        left: 25rem;
+        top: 12rem;
+        right: 3rem;
+        padding: 4rem;
+        text-align: center;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+    .main_div2Servicios {
+        position: relative;
+        top: 30rem;
+        padding: 2rem;
+    }
+    .main_imgdiv2Servicios {
+        width: 9rem;
+        height: 8rem;
+        position: relative;
+        border: groove;
+        border-radius: 1rem;
+        margin: 4rem;
+        left: 5rem;
+    }
+    .h4_div2 {
+        position: relative;;
+        bottom: 9rem;
+        margin-left: 20rem;
+        color: #ffffff;
+        font-size: 1.5rem;
+        width: 30rem;
+        font-family: 'Nunito', sans-serif;
+    }
+    .p_h4div2 {
+        background-color: #08092e;
+        color: #ffffff;
+        width: 70rem;
+        height: 3rem;
+        padding: 2rem;
+        font-size: 20px;
+        position: relative;
+        bottom: 4rem;
+        left: 20rem;
     }
     .headerReferencias {
         height: 300px;
@@ -572,16 +576,19 @@
         background-color: #110d27;
         color: #ffffff;
     }
-    .img_conteinerReferencias {
-        background-color: #171950;
-        padding: 4rem 30rem;
-        border: none;
-        display: inline-block;
-        .main_imgdiv1Referencias {
+    .divconteinerReferencias {
+        .img_conteinerReferencias {
+            background-color: #171950;
+            padding: 4rem 30rem;
             border: none;
-            border-radius: 1rem;
-            margin-left: 5rem;
+            display: flex;
+            flex-direction: row;
         }
+    }
+    .main_imgdiv1Referencias {
+        border: none;
+        border-radius: 1rem;
+        margin-left: 5rem;
     }
     .headerNovedades {
         height: 300px;
@@ -651,9 +658,9 @@
         .main_form {
             background-color: #cbc3ff;
             padding: 10px;
-            height: 38rem;
+            height: 48rem;
             .fieldset {
-                width: 50px;
+                width: 450px;
                 border-color: #ffffff;
                 color:#090e3d;
                 border: groove;
@@ -665,20 +672,21 @@
                 .main_divFieldset {
                     color: #000000;
                     font-size: 14px;
-                    .main_inputContactanos {
-                        border-color: #000000;
-                        border: groove;
-                    }
-                    .input_enviarContactanos {
-                        text-align: center;
-                        background-color: #2f4f4f;
-                        color: #ffffff;
-                        font-size: 16px;
-                        width: 100%;
-                        height: 100%;
-                        padding: 5px;
-                        margin-top: 5px;
-                    }
+                }
+                .main_inputContactanos {
+                    border-color: #000000;
+                    border: groove;
+                    width: 300px;
+                }
+                .input_enviarContactanos {
+                    text-align: center;
+                    background-color: #2f4f4f;
+                    color: #ffffff;
+                    font-size: 16px;
+                    width: 100%;
+                    height: 100%;
+                    padding: 5px;
+                    margin-top: 5px;
                 }
             }
         }

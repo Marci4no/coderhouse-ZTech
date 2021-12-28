@@ -1,0 +1,20 @@
+$bgcolor: #110d27;
+$footerbg: #0a0a0a;;
+$navbg: #04082bea;
+
+$colors: (
+    dark: #110d27, 
+    nigth: #191970,
+    violet: #330a33, 
+);
+
+@each $type, $color in $colors {
+    .bg-#{$type} {
+        color: $color;
+    }
+}
+
+@mixin size($size, $weigth) {
+    font-size: $size;
+    font-weight: $weigth;
+}

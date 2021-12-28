@@ -1,3 +1,12 @@
+.bg-dark {
+  color: #110d27; }
+
+.bg-nigth {
+  color: #191970; }
+
+.bg-violet {
+  color: #330a33; }
+
 * {
   padding: 0;
   margin: 0;
@@ -61,8 +70,8 @@
     color: #ffffff;
     font-family: 'Nunito', sans-serif; }
   .header h2 {
-    font-weight: 200;
     font-size: 16px;
+    font-weight: 200;
     font-family: 'Nunito', sans-serif;
     color: #ffffff; }
 
@@ -183,7 +192,7 @@
     font-size: 22px;
     padding: 2rem 2rem;
     background-color: midnightblue; }
-  .mainNosotros .main_div3Nosotros .p_div3Nosotros {
+  .mainNosotros .main_div3Nosotros .p_div3Nosotros, .mainNosotros .main_div3Nosotros .main_div4Nosotros .p_div4Nosotros, .mainNosotros .main_div4Nosotros .main_div3Nosotros .p_div4Nosotros {
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
@@ -200,15 +209,6 @@
     position: relative;
     top: 6rem;
     background-color: midnightblue; }
-  .mainNosotros .main_div4Nosotros .p_div4Nosotros {
-    color: #ffffff;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    position: relative;
-    top: 8rem;
-    bottom: 5rem;
-    height: 6rem;
-    padding: 0rem 1rem; }
 
 .headerContactanos {
   width: 100%; }
@@ -238,9 +238,10 @@
     text-align: left;
     font-size: 22px; }
   .mainContactanos .main_form {
-    background-color: #cbc3ff; }
+    background-color: #cbc3ff;
+    height: 48rem; }
     .mainContactanos .main_form .fieldset {
-      width: 150px;
+      width: 350px;
       border-color: #ffffff;
       color: #090e3d;
       border: groove;
@@ -253,7 +254,8 @@
         .mainContactanos .main_form .fieldset .main_divFieldset .main_inputContactanos {
           border-color: #000000;
           border: groove;
-          padding: 1rem 0rem; }
+          padding: 1rem 0rem;
+          width: 300px; }
         .mainContactanos .main_form .fieldset .main_divFieldset .input_enviarContactanos {
           text-align: center;
           background-color: #2f4f4f;
@@ -278,8 +280,8 @@
       padding-left: 1rem; }
     .mainContactanos .main_divContactanos img {
       position: relative;
-      bottom: 3rem;
-      left: 17rem; }
+      bottom: 5rem;
+      left: 18rem; }
 
 .headerServicios {
   width: 100%; }
@@ -294,14 +296,6 @@
     padding: 2rem;
     position: relative;
     left: 1.5rem; }
-    .mainServicios .main_div1h1Servicios .main_iframediv1Contactanos {
-      width: 20rem;
-      height: 15rem;
-      position: relative;
-      left: 1.3rem;
-      border: dotted 2px;
-      border-color: #ffffff;
-      margin-bottom: 2rem; }
   .mainServicios .main_pdiv1Contactanos {
     color: #ffffff;
     padding: 2rem;
@@ -320,7 +314,7 @@
       margin-bottom: 1rem;
       margin-top: 1rem;
       text-align: center;
-      background-color: midnightblue; }
+      background-color: #191970; }
     .mainServicios .main_div2Servicios .p_h4div2 {
       color: #ffffff;
       text-align: center;
@@ -578,7 +572,7 @@
         font-family: 'Nunito', sans-serif;
         font-size: 22px;
         background-color: midnightblue; }
-      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros {
+      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros, .mainNosotros .main_divContenedor .main_div3Nosotros .main_div4Nosotros .p_div4Nosotros, .mainNosotros .main_div4Nosotros .main_divContenedor .main_div3Nosotros .p_div4Nosotros {
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
         font-size: 18px;
@@ -620,14 +614,16 @@
     font-size: 22px; }
   .main_form {
     background-color: #cbc3ff;
-    height: 35rem; }
-    .main_form .fieldset {
-      left: 15rem;
-      top: 1rem; }
-      .main_form .fieldset .main_inputContactanos {
-        border-color: #000000;
-        border: groove;
-        padding: 1rem 0rem; }
+    height: 48rem; }
+  .fieldset {
+    left: 15rem;
+    top: 1rem;
+    width: 200px; }
+  .main_inputContactanos {
+    border-color: #000000;
+    border: groove;
+    padding: 1rem 0rem;
+    width: 300px; }
   .main_divh2Contactanos {
     padding: 2rem;
     text-align: left;
@@ -638,8 +634,8 @@
     padding-left: 1rem; }
   .main_divContactanos img {
     position: relative;
-    left: 45rem;
-    bottom: 3rem; }
+    bottom: 3rem;
+    left: 30rem; }
   .headerServicios {
     width: 100%;
     text-align: center; }
@@ -649,7 +645,8 @@
     padding: 5rem;
     text-align: center; }
   .main_imgdiv2Servicios {
-    left: 20rem; }
+    left: 30rem;
+    width: 10rem; }
   .headerNovedades {
     width: 100%; }
   .main_div1Novedades {
@@ -669,7 +666,9 @@
   .headerReferencias {
     width: 100%; }
   .img_conteinerReferencias {
-    left: 8rem; } }
+    left: 8rem;
+    flex-direction: row;
+    justify-content: center; } }
 
 @media screen and (min-width: 1080px) {
   .headerIndex {
@@ -825,7 +824,7 @@
         padding-left: 2rem;
         background-color: midnightblue;
         margin-right: 40rem; }
-      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros {
+      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros, .mainNosotros .main_divContenedor .main_div3Nosotros .main_div4Nosotros .p_div4Nosotros, .mainNosotros .main_div4Nosotros .main_divContenedor .main_div3Nosotros .p_div4Nosotros {
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
         font-size: 24px;
@@ -860,68 +859,67 @@
   .headerServicios {
     height: 300px;
     border: solid black 1px; }
+  .main_div1Servicios {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    color: #ffffff; }
   .mainServicios {
     background-color: #110d27;
-    height: 210rem; }
-    .mainServicios .main_div1Servicios {
-      font-size: 20px;
-      font-family: 'Nunito', sans-serif;
-      text-align: center;
-      position: relative;
-      top: 5rem;
-      color: #ffffff; }
-      .mainServicios .main_div1Servicios .main_div1h1Servicios {
-        background-color: #060e22;
-        width: 30rem;
-        height: 5rem;
-        text-align: center;
-        position: relative;
-        left: 43rem;
-        padding-top: 1rem;
-        border-radius: 5rem;
-        border: dotted; }
-      .mainServicios .main_div1Servicios .main_pdiv1Contactanos {
-        background-color: #180a3a;
-        width: 70rem;
-        position: relative;
-        left: 21rem;
-        top: 12rem;
-        right: 3rem;
-        padding: 4rem;
-        text-align: center;
-        padding-top: 2rem;
-        font-size: 1.5rem;
-        border-radius: 5px; }
-      .mainServicios .main_div1Servicios .main_div2Servicios {
-        position: relative;
-        top: 30rem;
-        padding: 2rem; }
-      .mainServicios .main_div1Servicios .main_imgdiv2Servicios {
-        width: 8rem;
-        height: 8rem;
-        position: relative;
-        border: groove;
-        border-radius: 2rem;
-        margin: 4rem;
-        left: 5rem; }
-      .mainServicios .main_div1Servicios .h4_div2 {
-        position: relative;
-        bottom: 9rem;
-        margin-left: 20rem;
-        color: #ffffff;
-        font-size: 1.5rem;
-        width: 30rem;
-        font-family: 'Nunito', sans-serif; }
-      .mainServicios .main_div1Servicios .p_h4div2 {
-        background-color: #08092e;
-        color: #ffffff;
-        width: 70rem;
-        height: 3rem;
-        padding: 2rem;
-        font-size: 20px;
-        position: relative;
-        bottom: 4rem;
-        left: 20rem; }
+    height: 230rem; }
+  .main_div1h1Servicios {
+    background-color: #060e22;
+    width: 30rem;
+    text-align: center;
+    position: relative;
+    padding-top: 1rem;
+    border-radius: 5rem;
+    border: dotted;
+    margin-left: 43rem; }
+  .main_pdiv1Contactanos {
+    background-color: #180a3a;
+    width: 70rem;
+    position: relative;
+    left: 25rem;
+    top: 12rem;
+    right: 3rem;
+    padding: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px; }
+  .main_div2Servicios {
+    position: relative;
+    top: 30rem;
+    padding: 2rem; }
+  .main_imgdiv2Servicios {
+    width: 9rem;
+    height: 8rem;
+    position: relative;
+    border: groove;
+    border-radius: 1rem;
+    margin: 4rem;
+    left: 5rem; }
+  .h4_div2 {
+    position: relative;
+    bottom: 9rem;
+    margin-left: 20rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 30rem;
+    font-family: 'Nunito', sans-serif; }
+  .p_h4div2 {
+    background-color: #08092e;
+    color: #ffffff;
+    width: 70rem;
+    height: 3rem;
+    padding: 2rem;
+    font-size: 20px;
+    position: relative;
+    bottom: 4rem;
+    left: 20rem; }
   .headerReferencias {
     height: 300px;
     border: solid black 1px; }
@@ -934,15 +932,16 @@
     padding-top: 7rem;
     background-color: #110d27;
     color: #ffffff; }
-  .img_conteinerReferencias {
+  .divconteinerReferencias .img_conteinerReferencias {
     background-color: #171950;
     padding: 4rem 30rem;
     border: none;
-    display: inline-block; }
-    .img_conteinerReferencias .main_imgdiv1Referencias {
-      border: none;
-      border-radius: 1rem;
-      margin-left: 5rem; }
+    display: flex;
+    flex-direction: row; }
+  .main_imgdiv1Referencias {
+    border: none;
+    border-radius: 1rem;
+    margin-left: 5rem; }
   .headerNovedades {
     height: 300px;
     border: solid black 1px; }
@@ -1001,9 +1000,9 @@
     .mainContactanos .main_form {
       background-color: #cbc3ff;
       padding: 10px;
-      height: 38rem; }
+      height: 48rem; }
       .mainContactanos .main_form .fieldset {
-        width: 50px;
+        width: 450px;
         border-color: #ffffff;
         color: #090e3d;
         border: groove;
@@ -1015,18 +1014,19 @@
         .mainContactanos .main_form .fieldset .main_divFieldset {
           color: #000000;
           font-size: 14px; }
-          .mainContactanos .main_form .fieldset .main_divFieldset .main_inputContactanos {
-            border-color: #000000;
-            border: groove; }
-          .mainContactanos .main_form .fieldset .main_divFieldset .input_enviarContactanos {
-            text-align: center;
-            background-color: #2f4f4f;
-            color: #ffffff;
-            font-size: 16px;
-            width: 100%;
-            height: 100%;
-            padding: 5px;
-            margin-top: 5px; }
+        .mainContactanos .main_form .fieldset .main_inputContactanos {
+          border-color: #000000;
+          border: groove;
+          width: 300px; }
+        .mainContactanos .main_form .fieldset .input_enviarContactanos {
+          text-align: center;
+          background-color: #2f4f4f;
+          color: #ffffff;
+          font-size: 16px;
+          width: 100%;
+          height: 100%;
+          padding: 5px;
+          margin-top: 5px; }
     .mainContactanos .main_divh2Contactanos {
       position: relative;
       padding-bottom: 3rem;

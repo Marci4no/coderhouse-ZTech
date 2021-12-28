@@ -5,14 +5,14 @@
         flex-wrap: inherit;
         justify-content: space-around;
         padding: 0 4px;
-        background-color: #04082bea; 
+        background-color: $navbg; 
     }
     .imgNavbarLogo {
         width: 100px;
         height: 70px;
     }
     .mainNav {
-        background-color: #04082bea;
+        background-color: $navbg;
         width: 100%;
         color: white;
         left: 70px;
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 800px) {
     .mainNav {
-        background-color: #04082bea;
+        background-color: $navbg;
         width: 100%;
         color: white;
         left: 70px;
