@@ -192,7 +192,7 @@
     font-size: 22px;
     padding: 2rem 2rem;
     background-color: midnightblue; }
-  .mainNosotros .main_div3Nosotros .p_div3Nosotros, .mainNosotros .main_div3Nosotros .main_div4Nosotros .p_div4Nosotros, .mainNosotros .main_div4Nosotros .main_div3Nosotros .p_div4Nosotros {
+  .mainNosotros .main_div3Nosotros .p_div3Nosotros {
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
@@ -209,6 +209,15 @@
     position: relative;
     top: 6rem;
     background-color: midnightblue; }
+  .mainNosotros .main_div4Nosotros .p_div4Nosotros {
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 8rem;
+    bottom: 5rem;
+    height: 7rem;
+    padding: 0rem 1rem; }
 
 .headerContactanos {
   width: 100%; }
@@ -572,7 +581,7 @@
         font-family: 'Nunito', sans-serif;
         font-size: 22px;
         background-color: midnightblue; }
-      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros, .mainNosotros .main_divContenedor .main_div3Nosotros .main_div4Nosotros .p_div4Nosotros, .mainNosotros .main_div4Nosotros .main_divContenedor .main_div3Nosotros .p_div4Nosotros {
+      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros {
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
         font-size: 18px;
@@ -633,9 +642,9 @@
     padding-top: 2rem;
     padding-left: 1rem; }
   .main_divContactanos img {
+    display: none;
     position: relative;
-    bottom: 3rem;
-    left: 30rem; }
+    bottom: 3rem; }
   .headerServicios {
     width: 100%;
     text-align: center; }
@@ -824,7 +833,7 @@
         padding-left: 2rem;
         background-color: midnightblue;
         margin-right: 40rem; }
-      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros, .mainNosotros .main_divContenedor .main_div3Nosotros .main_div4Nosotros .p_div4Nosotros, .mainNosotros .main_div4Nosotros .main_divContenedor .main_div3Nosotros .p_div4Nosotros {
+      .mainNosotros .main_divContenedor .main_div3Nosotros .p_div3Nosotros {
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
         font-size: 24px;
@@ -1046,7 +1055,8 @@
         left: 55rem;
         bottom: 2.5rem;
         width: 3rem;
-        height: 3rem; }
+        height: 3rem;
+        display: inline; }
       .mainContactanos .main_divContactanos p {
         padding-top: 4rem;
         padding-left: 4rem;

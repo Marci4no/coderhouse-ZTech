@@ -177,7 +177,14 @@
             background-color: midnightblue;
         }
         .p_div4Nosotros {
-            @extend .p_div3Nosotros;
+            color: #ffffff;
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            position: relative;
+            top: 8rem;
+            bottom: 5rem;
+            height: 7rem;
+            padding: 0rem 1rem;
         }
     }
 }
