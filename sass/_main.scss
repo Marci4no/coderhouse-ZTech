@@ -7,7 +7,7 @@
     height: 100px;
     text-align: center;
     padding-top: 2rem;
-    width: 23rem;
+    width: 100%;
     background-image: url(../images/headerbackground.png);
     h1 {
         font-weight: 500;
@@ -22,7 +22,7 @@
 }
 .mainIndex {
     background-image: none;
-    height: 1400px;
+    height: 1350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,11 +223,13 @@
         background-color: #cbc3ff;
         height: 48rem;
         .fieldset {
-            width: 350px;
+            width: 250px;
             border-color: #ffffff;
             color:#090e3d;
             border: groove;
             position: relative;
+            left: 3rem;
+            top: 2rem;
             background-color: #ffffff;
             padding: 1rem;
             .main_divFieldset {
@@ -237,7 +239,7 @@
                     border-color: #000000;
                     border: groove;
                     padding: 1rem 0rem;
-                    width: 300px;
+                    width: 200px;
                 }
                 .input_enviarContactanos {
                     text-align: center;

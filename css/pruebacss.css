@@ -63,7 +63,7 @@
   height: 100px;
   text-align: center;
   padding-top: 2rem;
-  width: 23rem;
+  width: 100%;
   background-image: url(../images/headerbackground.png); }
   .header h1 {
     font-weight: 500;
@@ -77,7 +77,7 @@
 
 .mainIndex {
   background-image: none;
-  height: 1400px;
+  height: 1350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -250,11 +250,13 @@
     background-color: #cbc3ff;
     height: 48rem; }
     .mainContactanos .main_form .fieldset {
-      width: 350px;
+      width: 250px;
       border-color: #ffffff;
       color: #090e3d;
       border: groove;
       position: relative;
+      left: 3rem;
+      top: 2rem;
       background-color: #ffffff;
       padding: 1rem; }
       .mainContactanos .main_form .fieldset .main_divFieldset {
@@ -264,7 +266,7 @@
           border-color: #000000;
           border: groove;
           padding: 1rem 0rem;
-          width: 300px; }
+          width: 200px; }
         .mainContactanos .main_form .fieldset .main_divFieldset .input_enviarContactanos {
           text-align: center;
           background-color: #2f4f4f;
@@ -625,7 +627,7 @@
     background-color: #cbc3ff;
     height: 48rem; }
   .fieldset {
-    left: 15rem;
+    left: 8rem;
     top: 1rem;
     width: 200px; }
   .main_inputContactanos {
@@ -634,17 +636,20 @@
     padding: 1rem 0rem;
     width: 300px; }
   .main_divh2Contactanos {
+    display: none;
     padding: 2rem;
     text-align: left;
     font-size: 22px; }
-  .main_divContactanos p {
-    padding-right: 8rem;
-    padding-top: 2rem;
-    padding-left: 1rem; }
-  .main_divContactanos img {
-    display: none;
-    position: relative;
-    bottom: 3rem; }
+  .main_divContactanos {
+    display: none; }
+    .main_divContactanos p {
+      padding-right: 8rem;
+      padding-top: 2rem;
+      padding-left: 1rem; }
+    .main_divContactanos img {
+      display: none;
+      position: relative;
+      bottom: 3rem; }
   .headerServicios {
     width: 100%;
     text-align: center; }
@@ -654,7 +659,7 @@
     padding: 5rem;
     text-align: center; }
   .main_imgdiv2Servicios {
-    left: 30rem;
+    left: 35rem;
     width: 10rem; }
   .headerNovedades {
     width: 100%; }
@@ -932,12 +937,14 @@
   .headerReferencias {
     height: 300px;
     border: solid black 1px; }
+  .mainReferencias {
+    height: 450px; }
   .main_h3div1Referencias {
     font-size: 28px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: 500;
-    height: 6rem;
+    height: 8rem;
     padding-top: 7rem;
     background-color: #110d27;
     color: #ffffff; }
@@ -946,7 +953,8 @@
     padding: 4rem 30rem;
     border: none;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    height: 390px; }
   .main_imgdiv1Referencias {
     border: none;
     border-radius: 1rem;
@@ -984,7 +992,7 @@
     background-color: #110d27;
     color: #ffffff;
     width: 100%;
-    height: 90rem;
+    height: 100rem;
     position: relative;
     padding-top: 5rem; }
     .mainContactanos .main_h2Contactanos {
@@ -1023,10 +1031,10 @@
         .mainContactanos .main_form .fieldset .main_divFieldset {
           color: #000000;
           font-size: 14px; }
-        .mainContactanos .main_form .fieldset .main_inputContactanos {
-          border-color: #000000;
-          border: groove;
-          width: 300px; }
+          .mainContactanos .main_form .fieldset .main_divFieldset .main_inputContactanos {
+            border-color: #000000;
+            border: groove;
+            width: 400px; }
         .mainContactanos .main_form .fieldset .input_enviarContactanos {
           text-align: center;
           background-color: #2f4f4f;
@@ -1037,6 +1045,7 @@
           padding: 5px;
           margin-top: 5px; }
     .mainContactanos .main_divh2Contactanos {
+      display: block;
       position: relative;
       padding-bottom: 3rem;
       padding-top: 5rem;
@@ -1044,6 +1053,7 @@
       font-family: 'Nunito', sans-serif;
       padding-left: 3rem; }
     .mainContactanos .main_divContactanos {
+      display: inline-block;
       width: 100%;
       height: 10rem;
       border-color: #ffffff;
@@ -1053,7 +1063,7 @@
       .mainContactanos .main_divContactanos img {
         position: relative;
         left: 55rem;
-        bottom: 2.5rem;
+        bottom: 3rem;
         width: 3rem;
         height: 3rem;
         display: inline; }
