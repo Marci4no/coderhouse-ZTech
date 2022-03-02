@@ -23,7 +23,7 @@ userName
 alert("Thanks " + userName + " let's continue")
 
 function mainMenu() {
-    let choise = prompt("Main Menu: \n1 - Own Services\n2 - Work whit Us\n3- Close")
+    let choise = prompt("Main Menu: \n1 - Own services\n2 - Work whit us\n3- Close")
 
     switch (choise) {
         case "1":
@@ -48,7 +48,7 @@ function mainMenu() {
 //-----FLOW FUNCTIONS-----//
 
 function viewServices() {
-    alert("These are the services we offer and its price per month: " + "\n" + "\n" + "1-" + serviceA.name + " $" + serviceA.cost + "\n" + "2-" + serviceB.name + " $" + serviceB.cost + "\n" + "3-" + serviceC.name + " $" + serviceC.cost + "\n" + "4-" + serviceD.name + " $" + serviceD.cost + "\n" + "5-" + serviceE.name + " $" + serviceE.cost + "\n" + "6-" + serviceF.name + " $" + serviceF.cost + "\n" + "\n" + "choose the one that best suits the needs of your company")
+    alert("These are the services we offer and its price per month: " + "\n" + "\n" + "1-" + serviceA.name + " $" + serviceA.cost + "\n" + "2-" + serviceB.name + " $" + serviceB.cost + "\n" + "3-" + serviceC.name + " $" + serviceC.cost + "\n" + "4-" + serviceD.name + " $" + serviceD.cost + "\n" + "5-" + serviceE.name + " $" + serviceE.cost + "\n" + "6-" + serviceF.name + " $" + serviceF.cost + "\n" + "\n" + "Choose the one that best suits the needs of your company")
 }
 let totalPrice = 0;
 
