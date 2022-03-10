@@ -68,27 +68,13 @@ function validateBuy(service) {
     let numberOfServices = parseInt(prompt("Enter the number of services you want to hire"))
     for (let i = 0; i < numberOfServices; i++) {
         let serviceName = prompt(userName + ", enter service name, only one" + "\n" + "\n" + "Remember, our services are:" + "\n" + "\n" + "1-" + serviceA.name + "\n" + "2-" + serviceB.name + "\n" + "3-" + serviceC.name + "\n" + "4-" + serviceD.name + "\n" + "5-" + serviceE.name + "\n" + "6-" + serviceF.name)
-        if (serviceName == "") {
+        let searchService = serviceList.find(x => x.name == serviceName)
+        if (searchService) {
+            buy(searchService)
+        }
+        else if (serviceName == "") {
             alert("This field can not be blank, please, start the process again")
             mainMenu()
-        }
-        else if (serviceName == serviceA.name) {
-            buy(serviceA.cost)
-        }
-        else if (serviceName == serviceB.name) {
-            buy(serviceB.cost)
-        }
-        else if (serviceName == serviceC.name) {
-            buy(serviceC.cost)
-        }
-        else if (serviceName == serviceD.name) {
-            buy(serviceD.cost)
-        }
-        else if (serviceName == serviceE.name) {
-            buy(serviceE.cost)
-        }
-        else if (serviceName == serviceF.name) {
-            buy(serviceF.cost)
         }
         else {
             alert(userName + ", you have not chosen a valid service, please start the process again")
@@ -97,6 +83,35 @@ function validateBuy(service) {
         alert('The total budget is: $ ' + totalPrice)
     }
 }
-
-
 mainMenu()
+
+
+/*if (serviceName == "") {
+    alert("This field can not be blank, please, start the process again")
+    mainMenu()
+}
+else if (serviceName == serviceA.name) {
+    buy(serviceA.cost)
+}
+else if (serviceName == serviceB.name) {
+    buy(serviceB.cost)
+}
+else if (serviceName == serviceC.name) {
+    buy(serviceC.cost)
+}
+else if (serviceName == serviceD.name) {
+    buy(serviceD.cost)
+}
+else if (serviceName == serviceE.name) {
+    buy(serviceE.cost)
+}
+else if (serviceName == serviceF.name) {
+    buy(serviceF.cost)
+}
+else {
+    alert(userName + ", you have not chosen a valid service, please start the process again")
+    exit
+}
+alert('The total budget is: $ ' + totalPrice)
+}*/
+

@@ -938,7 +938,7 @@
     height: 300px;
     border: solid black 1px; }
   .mainReferencias {
-    height: 450px; }
+    height: 550px; }
   .main_h3div1Referencias {
     font-size: 28px;
     font-family: 'Nunito', sans-serif;
@@ -1070,4 +1070,67 @@
       .mainContactanos .main_divContactanos p {
         padding-top: 4rem;
         padding-left: 4rem;
-        font-size: 20 px; } }
+        font-size: 20 px; } 
+        .cards {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          background-color: #03061f;
+          width: 350px;
+          height: 450px;
+          border: groove #c7c7c7;
+          border-radius: 5px;
+          color: #ffffff;
+          margin: 5px;
+          font-family: 'Nunito', sans-serif;
+          padding: 5px;
+      }
+      .catalogo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 50px;
+        max-height: 1000px;
+        background-color: #171950;
+        justify-content: center;
+      }
+      .buttonsConteiner {
+        background-color: #2b2c58;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+      }
+      .inpt1 {
+        border: solid, #000000;
+        border-radius: 7px;
+        height: 50px;
+        width: 400px;
+        background-color: #dddcdc;
+        color: #000000;
+        margin: 50px;
+        text-align: center;
+      }
+      .imgJS {
+        width: 9rem;
+        height: 8rem;
+        position: relative;
+        border: groove;
+        border-radius: 1rem;
+        margin: 4rem;
+        left: 2rem;
+      }
+      .btn{
+        border: solid, #000000;
+        border-radius: 7px;
+        height: 100px;
+        width: 300px;
+        background-color: #a8a8a8;
+        color: #000000;
+        margin: 50px;
+      }
+      .h5JS {
+        color: blanchedalmond;
+      }
+    }
