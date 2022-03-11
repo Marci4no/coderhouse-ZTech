@@ -50,7 +50,6 @@ function cards(){
                                 <h4> ${service.name}</h4>
                                 <p>  Price: $${service.cost}</p>
                                 <b>  Category: ${service.level}</b>
-                                <p>  ID: ${service.id}</p>
                                 <img src=${service.img} class="imgJS"/>
                                 <button> Acquire! </button></div>`;
         catalogo.appendChild(conteiner);
