@@ -421,6 +421,16 @@
   margin: 50px;
   text-align: center; }
 
+.inpt2 {
+  border: solid, #000000;
+  border-radius: 7px;
+  height: 50px;
+  width: 300px;
+  background-color: #dddcdc;
+  color: #000000;
+  margin: 50px;
+  text-align: center; }
+
 .imgJS {
   width: 9rem;
   height: 8rem;
@@ -430,17 +440,28 @@
   margin: 4rem;
   left: 2rem; }
 
-.btn {
+.butn {
   border: solid, #000000;
   border-radius: 7px;
   height: 100px;
-  width: 300px;
+  width: 100px;
   background-color: #a8a8a8;
   color: #000000;
-  margin: 50px; }
+  margin: 40px; }
 
-.h5JS {
-  color: blanchedalmond; }
+.cards2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #03061f;
+  width: 100px;
+  height: 100px;
+  border: groove #c7c7c7;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 5px;
+  font-family: 'Nunito', sans-serif;
+  padding: 5px; }
 
 .footer {
   background-color: #0a0a0a;

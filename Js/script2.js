@@ -15,7 +15,6 @@ const serviceF = new Service('Cyber Security', 60000, "Lvl 3", 6, "../images/seg
 
 const serviceList = [serviceA, serviceB, serviceC, serviceD, serviceE, serviceF]
 
-
 let viewAllServices = document.getElementById("btn1")
 viewAllServices.addEventListener('click', allCards)
 
@@ -29,7 +28,7 @@ function allCards(){
                                 <p>  Price: $${service.cost}</p>
                                 <b>  Category: ${service.level}</b>
                                 <img src=${service.img} class="imgJS"/>
-                                <button> Acquire! </button></div>`;
+                                <button id="buyButton"> Acquire! </button></div>`;
         catalogo.appendChild(conteiner);
     }
 }
@@ -51,7 +50,7 @@ function cards(){
                                 <p>  Price: $${service.cost}</p>
                                 <b>  Category: ${service.level}</b>
                                 <img src=${service.img} class="imgJS"/>
-                                <button> Acquire! </button></div>`;
+                                <button id="buyButton"> Acquire! </button></div>`;
         catalogo.appendChild(conteiner);
     }
 }

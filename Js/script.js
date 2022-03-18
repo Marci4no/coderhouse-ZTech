@@ -84,34 +84,3 @@ function validateBuy(service) {
     }
 }
 mainMenu()
-
-
-/*if (serviceName == "") {
-    alert("This field can not be blank, please, start the process again")
-    mainMenu()
-}
-else if (serviceName == serviceA.name) {
-    buy(serviceA.cost)
-}
-else if (serviceName == serviceB.name) {
-    buy(serviceB.cost)
-}
-else if (serviceName == serviceC.name) {
-    buy(serviceC.cost)
-}
-else if (serviceName == serviceD.name) {
-    buy(serviceD.cost)
-}
-else if (serviceName == serviceE.name) {
-    buy(serviceE.cost)
-}
-else if (serviceName == serviceF.name) {
-    buy(serviceF.cost)
-}
-else {
-    alert(userName + ", you have not chosen a valid service, please start the process again")
-    exit
-}
-alert('The total budget is: $ ' + totalPrice)
-}*/
-
